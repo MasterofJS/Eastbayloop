@@ -1,0 +1,133 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.adventure-page {
+    .banner-section {
+        height: calc(100vh - 85px);
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-item-content {
+                        height: calc(100vh - 85px);
+                        width: 100%;
+                        background-size: cover;
+                        background-position: center center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        h1 {
+                            font-size: 55px;
+                            font-weight: 700;
+                            text-shadow: 0 0 10px #383333;
+                        }
+                    }
+                }
+            }
+            .carousel-indicators {
+                li {
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    box-shadow: 0 0 5px #383333;
+                    margin: 0 5px;
+                    background: white;
+                    &.active {
+                        width: 20px;
+                        height: 20px;
+                        transition: 0.5s all ease-in-out;
+                        margin-top: -4px;
+                    }
+                }
+            }
+        }
+    }
+    .adventures-section {
+        padding: 40px 0 10px 0;
+        .adventures-section__header {
+            padding: 0 15px;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            .adventures-section__header__title {
+                font-weight: 700;
+            }
+        }
+        .adventures-section__filter {
+            display: flex;
+            align-items: center;
+            select {
+                width: 220px;
+                margin-right: 15px;
+                height: 40px;
+                font-size: 100%;
+            }
+        }
+        .adventures__gv {
+            margin-top: 45px;
+            .adventure-thumbnail {
+                padding: 15px;
+                box-shadow: 0 0 10px lightgrey;
+                margin-bottom: 30px;
+                max-width: 380px;
+                height: 240px;
+                .adventure-thumbnail__content {
+                    background-size: cover;
+                    background-position: center center;
+                    border-radius: 5px;
+                    .adventure-thumbnail__content__overlay {
+                        background: rgba(0, 0, 0, 0.4);
+                        max-width: 350px;
+                        width: 100%;
+                        height: 210px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        h3 {
+                            margin-bottom: 20px;
+                            color: white;
+                        }
+                        button {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .banner-section {
+            .carousel {
+                .carousel-inner {
+                    .carousel-item {
+                        .carousel-item-content {
+                            h1 {
+                                font-size: 36px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .adventures-section {
+            .adventures-section__header {
+                flex-direction: column;
+                h2 {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    font-size: 30px;
+                }
+                .adventures-section__filter {
+                    justify-content: center;
+                }
+            }
+            .adventures__gv {
+                .adventure-thumbnail {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+}

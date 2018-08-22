@@ -1,0 +1,154 @@
+<template>
+  <div class="adventure-page">
+    <Header/>
+    <div class="banner-section">
+        <div id="carouselAdventureIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselAdventureIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselAdventureIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselAdventureIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-item-content" :style="'background-image:url(' + require('../../images/adventure1.jpg')+')'">
+                    <h1>Adventure</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-item-content" :style="'background-image:url(' + require('../../images/adventure2.jpg')+')'">
+                    <h1>Adventure</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-item-content" :style="'background-image:url(' + require('../../images/adventure1.jpg')+')'">
+                    <h1>Adventure</h1>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="adventures-section">
+        <div class="container">
+            <div class="row adventures-section__header">
+                <h2>Adventure</h2>
+                <div class="adventures-section__filter">
+                    <select class="custom-select custom-select-lg">
+                        <option selected>Location Filter</option>
+                        <option value="1">Location1</option>
+                        <option value="2">Location2</option>
+                        <option value="3">Location3</option>
+                    </select>
+                    <button type="button" class="btn btn-black">Find Filter</button>
+                </div>
+            </div>
+            <div class="row adventures__gv">
+                <div class="col-lg-4 col-md-6">
+                    <div class="adventure-thumbnail">
+                        <div class="adventure-thumbnail__content" :style="'background-image: url(' + require('../../images/adventure1.jpg') + ')'">
+                            <div class="adventure-thumbnail__content__overlay">
+                                <h3>Adventure 1</h3>
+                                <button class="btn btn-yellow">(Sell Tickets)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="adventure-thumbnail">
+                        <div class="adventure-thumbnail__content" :style="'background-image: url(' + require('../../images/adventure1.jpg') + ')'">
+                            <div class="adventure-thumbnail__content__overlay">
+                                <h3>Adventure 2</h3>
+                                <button class="btn btn-yellow">(Sell Tickets)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="adventure-thumbnail">
+                        <div class="adventure-thumbnail__content" :style="'background-image: url(' + require('../../images/adventure1.jpg') + ')'">
+                            <div class="adventure-thumbnail__content__overlay">
+                                <h3>Adventure 3</h3>
+                                <button class="btn btn-yellow">(Sell Tickets)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="adventure-thumbnail">
+                        <div class="adventure-thumbnail__content" :style="'background-image: url(' + require('../../images/adventure1.jpg') + ')'">
+                            <div class="adventure-thumbnail__content__overlay">
+                                <h3>Adventure 4</h3>
+                                <button class="btn btn-yellow">(Sell Tickets)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="adventure-thumbnail">
+                        <div class="adventure-thumbnail__content" :style="'background-image: url(' + require('../../images/adventure1.jpg') + ')'">
+                            <div class="adventure-thumbnail__content__overlay">
+                                <h3>Adventure 5</h3>
+                                <button class="btn btn-yellow">(Sell Tickets)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="adventure-thumbnail">
+                        <div class="adventure-thumbnail__content" :style="'background-image: url(' + require('../../images/adventure1.jpg') + ')'">
+                            <div class="adventure-thumbnail__content__overlay">
+                                <h3>Adventure 6</h3>
+                                <button class="btn btn-yellow">(Sell Tickets)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="adventure-thumbnail">
+                        <div class="adventure-thumbnail__content" :style="'background-image: url(' + require('../../images/adventure1.jpg') + ')'">
+                            <div class="adventure-thumbnail__content__overlay">
+                                <h3>Adventure 7</h3>
+                                <button class="btn btn-yellow">(Sell Tickets)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="adventure-thumbnail">
+                        <div class="adventure-thumbnail__content" :style="'background-image: url(' + require('../../images/adventure1.jpg') + ')'">
+                            <div class="adventure-thumbnail__content__overlay">
+                                <h3>Adventure 8</h3>
+                                <button class="btn btn-yellow">(Sell Tickets)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="adventure-thumbnail">
+                        <div class="adventure-thumbnail__content" :style="'background-image: url(' + require('../../images/adventure1.jpg') + ')'">
+                            <div class="adventure-thumbnail__content__overlay">
+                                <h3>Adventure 9</h3>
+                                <button class="btn btn-yellow">(Sell Tickets)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import Header from '../layouts/Header.vue';
+
+export default {
+  name: 'adventure-page',
+  components: {
+    Header,
+  },
+};
+</script>

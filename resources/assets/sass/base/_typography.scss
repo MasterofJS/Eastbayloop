@@ -1,0 +1,29 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font: normal 100% / 1.4 $text-font-stack;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+select {
+    background: url(../../images/down-arrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 95% !important;
+    background-position-y: 50% !important;
+    background-size: 12px 12px !important;
+}
