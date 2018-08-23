@@ -10519,6 +10519,10 @@ a:focus {
   text-align: center;
 }
 
+ul {
+  padding: 0;
+}
+
 /**
  * Basic typography style for copy text
  */
@@ -10678,6 +10682,70 @@ select {
     border-top: 1px solid #9d9d9d;
     margin-top: 15px;
   }
+}
+
+#site-footer {
+  padding-top: 20px;
+  background-color: #131217;
+}
+
+#site-footer .site-footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#site-footer .site-footer__content p {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+#site-footer .site-footer__content ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+#site-footer .site-footer__content ul li {
+  margin: 0 10px;
+}
+
+#site-footer .site-footer__content ul li i {
+  color: white;
+  font-size: 20px;
+}
+
+#site-footer .site-footer__content #scroll-top {
+  border-radius: 0;
+  padding: 15px 20px;
+}
+
+#site-footer .site-footer__content #scroll-top i {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#site-footer .site-footer__content #scroll-top:hover i {
+  margin-top: -10px;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .btn-black {
@@ -11016,13 +11084,21 @@ select {
     max-width: 300px;
     height: auto;
     padding: 20px 0;
-    border-left: 0;
+    border-left: 0px;
   }
 }
 
 @media only screen and (max-width: 767px) {
+  .adventure-page .banner-section {
+    height: 250px;
+  }
+
+  .adventure-page .banner-section .carousel .carousel-inner .carousel-item .carousel-item-content {
+    height: 250px;
+  }
+
   .adventure-page .banner-section .carousel .carousel-inner .carousel-item .carousel-item-content h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .adventure-page .adventures-section .adventures-section__header {

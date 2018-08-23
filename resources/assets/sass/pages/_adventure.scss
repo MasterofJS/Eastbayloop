@@ -255,7 +255,7 @@
                         max-width: 300px;
                         height: auto;
                         padding: 20px 0;
-                        border-left: 0;
+                        border-left: 0px;
                     }
                 }
             }
@@ -265,12 +265,14 @@
 
     @media only screen and (max-width: 767px) {
         .banner-section {
+            height: 250px;
             .carousel {
                 .carousel-inner {
                     .carousel-item {
                         .carousel-item-content {
+                            height: 250px;
                             h1 {
-                                font-size: 36px;
+                                font-size: 30px;
                             }
                         }
                     }

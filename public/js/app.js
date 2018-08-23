@@ -47348,6 +47348,8 @@ module.exports = Component.exports
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__layouts_Header_vue__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__layouts_Header_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__layouts_Header_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__layouts_Footer_vue__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__layouts_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__layouts_Footer_vue__);
 //
 //
 //
@@ -47552,13 +47554,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'adventure-page',
   components: {
-    Header: __WEBPACK_IMPORTED_MODULE_0__layouts_Header_vue___default.a
+    Header: __WEBPACK_IMPORTED_MODULE_0__layouts_Header_vue___default.a,
+    Footer: __WEBPACK_IMPORTED_MODULE_1__layouts_Footer_vue___default.a
   }
 });
 
@@ -47988,7 +47993,9 @@ var render = function() {
             ])
           ])
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c("Footer")
     ],
     1
   )
@@ -48297,6 +48304,136 @@ module.exports = "/images/event1.jpg?e3502154a9007f6a408db4cb1c03ac31";
 /***/ (function(module, exports) {
 
 module.exports = "/images/event2.jpg?1884d62a6d11820ad8e3ca128fbe00c8";
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(12)
+/* script */
+var __vue_script__ = __webpack_require__(58)
+/* template */
+var __vue_template__ = __webpack_require__(57)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\layouts\\Footer.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-d258aca6", Component.options)
+  } else {
+    hotAPI.reload("data-v-d258aca6", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("footer", { attrs: { id: "site-footer" } }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row site-footer__content" }, [
+        _c("p", [_vm._v("2016 Copyright All Rights Reserved.")]),
+        _vm._v(" "),
+        _vm._m(0),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "btn btn-yellow",
+            attrs: { id: "scroll-top" },
+            on: { click: _vm.scrollTop }
+          },
+          [_c("i", { staticClass: "fa fa-angle-double-up" })]
+        )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("ul", [
+      _c("li", [_c("i", { staticClass: "fa fa-facebook" })]),
+      _vm._v(" "),
+      _c("li", [_c("i", { staticClass: "fa fa-twitter" })]),
+      _vm._v(" "),
+      _c("li", [_c("i", { staticClass: "fa fa-google-plus" })])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-d258aca6", module.exports)
+  }
+}
+
+/***/ }),
+/* 58 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    scrollTop: function scrollTop() {
+      var el = document.getElementById('site-header');
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+});
 
 /***/ })
 /******/ ]);
