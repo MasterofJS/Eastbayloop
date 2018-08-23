@@ -11016,6 +11016,7 @@ select {
     max-width: 300px;
     height: auto;
     padding: 20px 0;
+    border-left: 0;
   }
 }
 
