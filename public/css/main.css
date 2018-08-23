@@ -10510,6 +10510,15 @@ a:focus {
   text-decoration: underline;
 }
 
+.page-section .page-section__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-section .page-section__description {
+  text-align: center;
+}
+
 /**
  * Basic typography style for copy text
  */
@@ -10531,6 +10540,18 @@ h2 {
 
 h3 {
   font-size: 30px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
 }
 
 select {
@@ -10800,6 +10821,202 @@ select {
 
 .adventure-page .adventures-section .adventures__gv .adventure-thumbnail .adventure-thumbnail__content .adventure-thumbnail__content__overlay button {
   font-size: 14px;
+}
+
+.adventure-page .events-section {
+  padding: 40px 0;
+}
+
+.adventure-page .events-section .events {
+  margin-top: 40px;
+}
+
+.adventure-page .events-section .events .event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 220px;
+  width: 100%;
+  -webkit-box-shadow: 0 0 10px grey;
+          box-shadow: 0 0 10px grey;
+  margin-bottom: 10px;
+}
+
+.adventure-page .events-section .events .event .event__img {
+  max-width: 270px;
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.adventure-page .events-section .events .event .event__content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__head {
+  padding: 15px 20px;
+  border-bottom: 2px solid #dfdcd7;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__head h4 {
+  font-weight: 400;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__head h4 span {
+  font-weight: 300;
+  font-size: 16px;
+  color: #858585;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__head h6 {
+  color: #474747;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__head h6 span {
+  font-weight: 300;
+  font-size: 12px;
+  color: #858585;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__body .event__date {
+  padding: 34px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__body .event__date sup {
+  font-size: 21px;
+  color: #858585;
+  font-weight: 300;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__body .event__date span {
+  display: inline-block;
+  font-size: 26px;
+  color: #c3050f;
+  font-weight: 600;
+  position: relative;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__body .event__date span:before {
+  content: '|';
+  display: block;
+  position: absolute;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  top: -11px;
+  left: -2px;
+  font-weight: 300;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__body .event__description {
+  padding: 34px 40px;
+  border-left: 2px solid #dfdcd7;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__body .event__description p {
+  color: #858585;
+  font-weight: 300;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__body .event__description a {
+  color: #0183ff;
+  text-decoration: none;
+}
+
+.adventure-page .events-section .events .event .event__content .event__content__body .event__description a .fa {
+  color: #0183ff;
+  margin-right: 5px;
+}
+
+.adventure-page .events-section .events .event .event__more {
+  max-width: 270px;
+  height: 220px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 2px solid #dfdcd7;
+}
+
+.adventure-page .events-section .events .event .event__more .btn-black {
+  padding: 15px 20px;
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+  .adventure-page .events-section .events .event .event__content .event__content__head h4 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .adventure-page .events-section .events .event {
+    max-width: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .adventure-page .events-section .events .event .event__img {
+    max-width: 300px;
+  }
+
+  .adventure-page .events-section .events .event .event__content .event__content__head h4 {
+    font-size: 15px;
+  }
+
+  .adventure-page .events-section .events .event .event__content .event__content__head h6 {
+    font-size: 14px;
+  }
+
+  .adventure-page .events-section .events .event .event__content .event__content__body {
+    border-bottom: 2px solid #dfdcd7;
+  }
+
+  .adventure-page .events-section .events .event .event__content .event__content__body .event__date {
+    padding: 10px 20px;
+  }
+
+  .adventure-page .events-section .events .event .event__content .event__content__body .event__description {
+    padding: 10px 20px;
+  }
+
+  .adventure-page .events-section .events .event .event__more {
+    max-width: 300px;
+    height: auto;
+    padding: 20px 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {

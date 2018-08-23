@@ -27,7 +27,7 @@
         </div>
         </div>
     </div>
-    <div class="adventures-section">
+    <div class="page-section adventures-section">
         <div class="container">
             <div class="row adventures-section__header">
                 <h2>Adventure</h2>
@@ -136,6 +136,66 @@
                 </div>
 
 
+            </div>
+        </div>
+    </div>
+    <div class="page-section events-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <h2 class="page-section__title">Events</h2>
+                    <p class="page-section__description">Etiam perfecto argumentum his ne, id mundi sapientem vim, vel te oratio partiendo explicari. Nam noluisse vivendum efficiendi ne, cu movet insolens reprimique duo, fabulas accusamus in eos.</p>
+                </div>
+            </div>
+            <div class="row events">
+                <div class="event">
+                    <div class="event__img" :style="'background-image: url(' + require('../../images/event1.jpg') + ')'">
+                    </div>
+                    <div class="event__content">
+                        <div class="event__content__head">
+                            <h4>FOLRENCE + THE MACHINE <span>8PM</span></h4>
+                            <h6>Cold War Kids <span>7pm</span></h6>
+                        </div>
+                        <div class="event__content__body">
+                            <div class="event__date">
+                                <sup>OCT</sup><span>23</span>
+                            </div>
+                            <div class="event__description">
+                                <p>This event is 21 and over</p>
+                                <a href="#">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>  More Info
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event__more">
+                        <button class="btn btn-black">Read More</button>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="event__img" :style="'background-image: url(' + require('../../images/event2.jpg') + ')'">
+                    </div>
+                    <div class="event__content">
+                        <div class="event__content__head">
+                            <h4>FOLRENCE + THE MACHINE <span>8PM</span></h4>
+                            <h6>Cold War Kids <span>7pm</span></h6>
+                        </div>
+                        <div class="event__content__body">
+                            <div class="event__date">
+                                <sup>OCT</sup><span>23</span>
+                            </div>
+                            <div class="event__description">
+                                <p>This event is 21 and over</p>
+                                <a href="#">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>  More Info
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event__more">
+                        <button class="btn btn-black">Read More</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
