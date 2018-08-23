@@ -10523,6 +10523,10 @@ ul {
   padding: 0;
 }
 
+.btn:hover {
+  opacity: 0.8;
+}
+
 /**
  * Basic typography style for copy text
  */
