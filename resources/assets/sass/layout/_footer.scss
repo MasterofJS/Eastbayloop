@@ -2,45 +2,45 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 #site-footer {
-    padding-top: 20px;
-    background-color: #131217;
-    .site-footer__content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        p {
-            color: white;
-            font-size: 16px;
-            font-weight: 300;
-            margin-bottom: 30px;
-        }
-        ul {
-            list-style-type: none;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-            li {
-                margin: 0 10px;
-                i {
-                    color: white;
-                    font-size: 20px;
-                }
-            }
-        }
-        #scroll-top {
-            border-radius: 0;
-            padding: 15px 20px;
-            i {
-                font-size: 20px;
-                font-weight: 700;
-            }
-            &:hover {
-                i {
-                    margin-top: -10px;
-                    transition: 0.5s all ease-in-out;
-                }
-            }
-        }
+  padding-top: 20px;
+  background-color: #131217;
+  .site-footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      color: white;
+      font-size: 17px;
+      font-weight: 300;
+      margin-bottom: 30px;
     }
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      li {
+        margin: 0 10px;
+        i {
+          color: white;
+          font-size: 20px;
+        }
+      }
+    }
+    #scroll-top {
+      border-radius: 0;
+      padding: 15px 20px;
+      i {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      &:hover {
+        i {
+          margin-top: -10px;
+          transition: 0.5s all ease-in-out;
+        }
+      }
+    }
+  }
 }

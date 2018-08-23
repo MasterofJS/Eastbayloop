@@ -10501,6 +10501,7 @@ html {
 a {
   color: #e2fd1a;
   text-decoration: none;
+  font-size: 16px;
 }
 
 a:hover,
@@ -10513,14 +10514,24 @@ a:focus {
 .page-section .page-section__title {
   text-align: center;
   margin-bottom: 30px;
+  font-size: 35px;
+  font-family: "Barlow Condensed", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
 }
 
 .page-section .page-section__description {
   text-align: center;
+  font-size: 17px;
 }
 
 ul {
   padding: 0;
+}
+
+.btn {
+  font-family: "Barlow", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .btn:hover {
@@ -10533,7 +10544,7 @@ ul {
 
 body {
   color: #222222;
-  font: normal 100%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font: normal 100%/1.4 "Barlow", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 h1 {
@@ -10622,10 +10633,6 @@ select {
   background: #1a191e;
 }
 
-#site-header .container {
-  max-width: 1280px;
-}
-
 #site-header .navbar-brand {
   background: #9d9d9d;
   padding: 15px 30px;
@@ -10644,9 +10651,10 @@ select {
 }
 
 #site-header .navbar .navbar-nav .nav-item .nav-link {
+  font-family: "Barlow Condensed", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: white;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -10656,7 +10664,7 @@ select {
   height: 5px;
   background: #ecff31;
   display: block;
-  margin: 0 5px;
+  margin: 0 6px;
 }
 
 #site-header .navbar .navbar-nav .nav-item:hover .nav-link,
@@ -10711,7 +10719,7 @@ select {
 
 #site-footer .site-footer__content p {
   color: white;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
   margin-bottom: 30px;
 }
@@ -10764,9 +10772,9 @@ select {
   color: #000000;
   background-color: #e2fd1a;
   border-color: #e2fd1a;
-  padding: 6px 12px;
+  padding: 8px 20px;
   border-radius: 3px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .adventure-page .banner-section {
@@ -10791,7 +10799,7 @@ select {
 }
 
 .adventure-page .banner-section .carousel .carousel-inner .carousel-item .carousel-item-content h1 {
-  font-size: 55px;
+  font-size: 58px;
   font-weight: 700;
   text-shadow: 0 0 10px #383333;
 }
@@ -10816,6 +10824,13 @@ select {
 
 .adventure-page .adventures-section {
   padding: 40px 0 10px 0;
+}
+
+.adventure-page .adventures-section .page-section__title {
+  margin-bottom: 0;
+  font-size: 39px;
+  font-family: "Barlow", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  text-transform: none;
 }
 
 .adventure-page .adventures-section .adventures-section__header {
@@ -10887,6 +10902,7 @@ select {
 }
 
 .adventure-page .adventures-section .adventures__gv .adventure-thumbnail .adventure-thumbnail__content .adventure-thumbnail__content__overlay h3 {
+  font-weight: 300;
   margin-bottom: 20px;
   color: white;
 }
@@ -10938,26 +10954,25 @@ select {
 
 .adventure-page .events-section .events .event .event__content .event__content__head h4 {
   font-weight: 400;
+  font-size: 32px;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__head h4 span {
-  font-weight: 300;
-  font-size: 16px;
-  color: #858585;
+  font-size: 17px;
   display: inline-block;
   padding-left: 20px;
+  font-family: "Barlow Condensed", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__head h6 {
-  color: #474747;
   margin-bottom: 0;
   font-weight: 400;
+  font-size: 23px;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__head h6 span {
-  font-weight: 300;
-  font-size: 12px;
-  color: #858585;
+  font-size: 17px;
+  font-family: "Barlow Condensed", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__body {
@@ -10967,7 +10982,7 @@ select {
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__body .event__date {
-  padding: 34px 40px;
+  padding: 25px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10977,17 +10992,19 @@ select {
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__body .event__date sup {
-  font-size: 21px;
+  top: -1.2em;
+  font-size: 20px;
   color: #858585;
-  font-weight: 300;
+  font-family: "Barlow Condensed", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__body .event__date span {
   display: inline-block;
-  font-size: 26px;
-  color: #c3050f;
+  font-size: 43px;
+  color: #c2040e;
   font-weight: 600;
   position: relative;
+  font-family: "Barlow Condensed", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__body .event__date span:before {
@@ -10996,28 +11013,32 @@ select {
   position: absolute;
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
-  top: -11px;
-  left: -2px;
+  top: -13px;
+  left: 4px;
   font-weight: 300;
+  font-family: "Barlow Condensed", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__body .event__description {
-  padding: 34px 40px;
+  padding: 25px 40px;
   border-left: 2px solid #dfdcd7;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__body .event__description p {
-  color: #858585;
-  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: "Barlow Condensed", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__body .event__description a {
-  color: #0183ff;
+  color: #0283ff;
   text-decoration: none;
+  font-family: "Barlow Condensed", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
 }
 
 .adventure-page .events-section .events .event .event__content .event__content__body .event__description a .fa {
-  color: #0183ff;
+  color: #0283ff;
   margin-right: 5px;
 }
 
@@ -11080,8 +11101,16 @@ select {
     padding: 10px 20px;
   }
 
+  .adventure-page .events-section .events .event .event__content .event__content__body .event__date p {
+    font-size: 18px;
+  }
+
   .adventure-page .events-section .events .event .event__content .event__content__body .event__description {
     padding: 10px 20px;
+  }
+
+  .adventure-page .events-section .events .event .event__content .event__content__body .event__description p {
+    font-size: 18px;
   }
 
   .adventure-page .events-section .events .event .event__more {

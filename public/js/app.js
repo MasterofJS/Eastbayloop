@@ -48034,7 +48034,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row adventures-section__header" }, [
-      _c("h2", [_vm._v("Adventure")]),
+      _c("h2", { staticClass: "page-section__title" }, [_vm._v("Adventure")]),
       _vm._v(" "),
       _c("div", { staticClass: "adventures-section__filter" }, [
         _c("select", { staticClass: "custom-select custom-select-lg" }, [
@@ -48170,12 +48170,12 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-10 offset-md-1" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("h2", { staticClass: "page-section__title" }, [_vm._v("Events")]),
         _vm._v(" "),
         _c("p", { staticClass: "page-section__description" }, [
           _vm._v(
-            "Etiam perfecto argumentum his ne, id mundi sapientem vim, vel te oratio partiendo explicari. Nam noluisse vivendum efficiendi ne, cu movet insolens reprimique duo, fabulas accusamus in eos."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius nulla ac ipsum pharetra, sodales euismod est rhoncus."
           )
         ])
       ])

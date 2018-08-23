@@ -30,7 +30,7 @@
     <div class="page-section adventures-section">
         <div class="container">
             <div class="row adventures-section__header">
-                <h2>Adventure</h2>
+                <h2 class="page-section__title">Adventure</h2>
                 <div class="adventures-section__filter">
                     <select class="custom-select custom-select-lg">
                         <option selected>Location Filter</option>
@@ -142,9 +142,9 @@
     <div class="page-section events-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-12">
                     <h2 class="page-section__title">Events</h2>
-                    <p class="page-section__description">Etiam perfecto argumentum his ne, id mundi sapientem vim, vel te oratio partiendo explicari. Nam noluisse vivendum efficiendi ne, cu movet insolens reprimique duo, fabulas accusamus in eos.</p>
+                    <p class="page-section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius nulla ac ipsum pharetra, sodales euismod est rhoncus.</p>
                 </div>
             </div>
             <div class="row events">
