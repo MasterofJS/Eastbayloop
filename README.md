@@ -39,9 +39,9 @@ php artisan migrate
 
 8. Install Node modules
 ````
-npm install
+npm install  or   yarn install
 ````
-yarn install
+
 
 9. Build
 
