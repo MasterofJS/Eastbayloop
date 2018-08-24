@@ -15,9 +15,7 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// Vue.component('Adventure', require('./views/Adventure.vue'));
-
-// components
+// Register Vue Components
 Vue.component('adventures', require('./components/Adventures.vue'));
 Vue.component('events', require('./components/Events.vue'));
 Vue.component('category-slider', require('./components/CategorySlider.vue'));
