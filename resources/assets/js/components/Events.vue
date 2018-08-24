@@ -6,7 +6,7 @@
       <div class="event__content">
         <div class="event__content__head">
           <h4>FOLRENCE + THE MACHINE <span>8PM</span></h4>
-          <h6>Cold War Kids <span>7pm</span></h6>
+          <h6>Cold War Kids <span>7PM</span></h6>
         </div>
         <div class="event__content__body">
           <div class="event__date">

@@ -47947,7 +47947,7 @@ var staticRenderFns = [
           _c("span", [_vm._v("8PM")])
         ]),
         _vm._v(" "),
-        _c("h6", [_vm._v("Cold War Kids "), _c("span", [_vm._v("7pm")])])
+        _c("h6", [_vm._v("Cold War Kids "), _c("span", [_vm._v("7PM")])])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "event__content__body" }, [

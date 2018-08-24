@@ -10808,6 +10808,10 @@ select {
   text-shadow: 0 0 10px #383333;
 }
 
+.adventure-page .banner-section .carousel .carousel-indicators {
+  height: 20px;
+}
+
 .adventure-page .banner-section .carousel .carousel-indicators li {
   width: 12px;
   height: 12px;
