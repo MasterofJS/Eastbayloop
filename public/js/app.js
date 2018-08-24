@@ -14328,9 +14328,7 @@ window.Vue = __webpack_require__(40);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// Vue.component('Adventure', require('./views/Adventure.vue'));
-
-// components
+// Register Vue Components
 Vue.component('adventures', __webpack_require__(43));
 Vue.component('events', __webpack_require__(49));
 Vue.component('category-slider', __webpack_require__(55));

@@ -2,8 +2,10 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 #site-header {
-  background: #1a191e;
+  background: rgba(26, 25, 30, 0.7);
   position: absolute;
+  z-index: 1000;
+  top: 0;
   width: 100%;
   .navbar-brand {
     background: #9d9d9d;

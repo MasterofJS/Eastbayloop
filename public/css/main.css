@@ -10630,7 +10630,11 @@ select {
 }
 
 #site-header {
-  background: #1a191e;
+  background: rgba(26, 25, 30, 0.7);
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
 }
 
 #site-header .navbar-brand {
@@ -10778,11 +10782,11 @@ select {
 }
 
 .adventure-page .banner-section {
-  height: calc(100vh - 85px);
+  height: 100vh;
 }
 
 .adventure-page .banner-section .carousel .carousel-inner .carousel-item .carousel-item-content {
-  height: calc(100vh - 85px);
+  height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -11125,11 +11129,11 @@ select {
 
 @media only screen and (max-width: 767px) {
   .adventure-page .banner-section {
-    height: 250px;
+    height: 300px;
   }
 
   .adventure-page .banner-section .carousel .carousel-inner .carousel-item .carousel-item-content {
-    height: 250px;
+    height: 300px;
   }
 
   .adventure-page .banner-section .carousel .carousel-inner .carousel-item .carousel-item-content h1 {
