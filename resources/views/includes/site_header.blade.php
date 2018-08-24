@@ -1,5 +1,4 @@
-<template>
-  <header id="site-header">
+<header id="site-header">
     <div class="container">
       <nav class="navbar navbar-expand-xl navbar-light">
         <a class="navbar-brand" href="#">LOGO</a>
@@ -48,4 +47,3 @@
       </nav>
     </div>
   </header>
-</template>
